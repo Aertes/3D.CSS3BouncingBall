@@ -7,9 +7,13 @@ h2{
     text-align: center;
 }
 
+.chart{
+    margin: 100px auto;
+}
+
+
 .box{
     width: 100%;
-    margin: 100px auto;
     position: relative;
     display: flex;
     justify-content: center;
@@ -186,13 +190,13 @@ h2{
 
 
 
-.box .content{
+.content{
     position: absolute;
     top: -90px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 13px;
-    width: 120px;
+    font-size: 12px;
+    width: 150px;
     line-height: 20px;
     text-align: left;
     background-color: #474b56;
